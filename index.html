@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Gardens</title>
+    <title>Inspirations</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+    <nav id="topbar" class="navbar navbar-expand-lg navbar-light fixed-top bg-light flex-container">
         <img id="logo" src="jon.jpeg" width="50" height="50" alt="MEE">
         <a class="navbar-brand" href="#top">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,6 +101,8 @@
               
               <li><div class="dropdown-divider"></div></li>
               <li><a class="dropdown-item" target="_blank"  href="http://students.washington.edu/walzejon/lavender/">Lavender</a></li>
+              <li><a class="dropdown-item" target="_blank"  href="#">Capstone</a></li>
+
               </ul>
             </li>
           </ul>
@@ -112,41 +114,51 @@
             <div class="form-row">
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-primary" action="http://courses.washington.edu/bimd233/bimd.php"method="post">Login</button>
+            <button id="login-button" type="submit" class="btn btn-primary" action="http://courses.washington.edu/bimd233/bimd.php"method="post">Login</button>
           </form>
         </div>
       </nav>
     <div id="top"></div>
 
-    <div class="container" id="caro">
+    <div class="mx-auto" id="caro">
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F37%2F2019%2F06%2F28154901%2Fsikorski-backyard-garden-7ad60bb6.jpg&w=1200&c=sc&poi=face&q=85" class="d-block w-100" alt="...">
+            <img src="olympic.JPG" class="d-block w-100" alt="Olympics">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <h5>Olympic National Park</h5>
+              <p>Taken at the top of Buckhorn Mountain.</p>
+
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="https://blog.gardenloversclub.com/wp-content/uploads/2019/03/4.-pink-garden-boxes.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item mx-auto">
+            <img src="https://travelwyoming.com/wp-content/uploads/1.4-Grand-Teton-1_forweb.jpg" class="d-block w-100" alt="Grand Teton national Park">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h5>Grand Teton National Park</h5>
+
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="https://blog.gardenloversclub.com/wp-content/uploads/2019/03/16.-townhouse-backyard.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item mx-auto">
+            <img src="DSC_3106.JPG" class="d-block w-100" alt="Surf Van">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              <h5>Surfing the Straight of Juan de Fuca</h5>
+              <p>I took this photo this weekend while on a surf trip.</p>
             </div>
           </div>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img src="stop_sign.jpg" class="d-block w-100" alt="Olympics">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Index, WA</h5>  
+              </div>
+            </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -159,28 +171,34 @@
       </div>
 
     </div>
-
+<hr>
 
       <div class="flex-container">
         
         <div class="card" style="width: 18rem;">
-            <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F37%2F2019%2F06%2F28154901%2Fsikorski-backyard-garden-7ad60bb6.jpg&w=1200&c=sc&poi=face&q=85" class="card-img-top" alt="...">
+            <!-- <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F37%2F2019%2F06%2F28154901%2Fsikorski-backyard-garden-7ad60bb6.jpg&w=1200&c=sc&poi=face&q=85" class="card-img-top" alt="..."> -->
+            <iframe src="https://www.youtube.com/embed/mhLYGvXQVZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text overflow-auto">Andrew Marlin, the man who writes the songs for Mandolin Orange, is a huge inspiration to me. His music has a lot of space and depth to it.</p>
+              <a class="btn btn-secondary" href="http://www.mandolinorange.com/" role="button">Mandolin Orange</a>
             </div>
           </div>
 
           <div class="card" style="width: 18rem;">
-            <img src="https://blog.gardenloversclub.com/wp-content/uploads/2019/03/4.-pink-garden-boxes.jpg" class="card-img-top" alt="...">
+            <!-- <img src="https://travelwyoming.com/wp-content/uploads/1.4-Grand-Teton-1_forweb.jpg" class="card-img-top" alt="Grand Tetons"> -->
+            <iframe src="https://www.youtube.com/embed/blR870Dcq3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">The Grand Tetons might be my favorite National Park. I have gone on two amazing ski trips to the Tetons which have changed my life.</p>
+              <a class="btn btn-secondary" href="https://www.nps.gov/grte/index.htm" role="button">Grand Teton National Park</a>
             </div>
           </div>
 
           <div class="card" style="width: 18rem;">
-            <img src="https://blog.gardenloversclub.com/wp-content/uploads/2019/03/16.-townhouse-backyard.jpg" class="card-img-top" alt="...">
+            <!-- <img src="https://blog.gardenloversclub.com/wp-content/uploads/2019/03/16.-townhouse-backyard.jpg" class="card-img-top" alt="..."> -->
+            <iframe src="https://www.youtube.com/embed/YW68edzbczM?start=6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">This is a brand-new video that came out today. Shane O'Neill is a well-known skateboarder and this part has received a lot of praise so far. </p>
+              <a class="btn btn-secondary" href="https://en.wikipedia.org/wiki/Shane_O%27Neill_(skateboarder)" role="button">Shane O'Niell</a>
             </div>
           </div>
       </div>
