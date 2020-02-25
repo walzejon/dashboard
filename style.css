@@ -68,9 +68,11 @@
   #caro{
       background-color: white;
   }
-  .carousel-inner{
+  .carousel-inner img{
     margin: 0em;
     padding: 0em;
+    width: 100%;
+    height: 100%;
 }
 .form-row{
     display: flex;
